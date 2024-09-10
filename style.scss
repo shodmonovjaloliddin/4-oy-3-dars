@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.header-section{
+    background: #133D8D;
+    width: 100%;
+}
+.two-headers{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}  
+.groups{
+    gap: 50px;  
+}
+.groups a{
+    color: white;
+    font-size: 15px;
+}
+.groups :nth-child(2){
+    margin-left: 50px;
+}
+.two-headers2{
+    display: flex;
+    gap: 98px;
+    padding: 20px;
+}
+.two-headers2 a{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.top-section{
+    padding-left: 20px;
+}
+.top-section :nth-child(2){
+    margin-top: 60px;
+}

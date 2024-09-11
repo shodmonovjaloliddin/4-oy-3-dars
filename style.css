@@ -35,7 +35,7 @@ a {
 
 .two-headers2 {
   display: flex;
-  gap: 98px;
+  gap: 90px;
   padding: 20px;
 }
 
@@ -51,4 +51,112 @@ a {
 
 .top-section :nth-child(2) {
   margin-top: 60px;
+}
+
+.center-section {
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.big-divs {
+  margin-top: 50px;
+}
+
+.fiters {
+  display: flex;
+  gap: 110px;
+  margin-top: 50px;
+}
+
+.mini-divs {
+  border: 1px solid rgba(51, 51, 51, 0.3019607843);
+  padding: 35px;
+  width: 486px;
+  height: 234px;
+  border-radius: 5px;
+}
+
+.mini-divs :nth-child(1) {
+  font-size: 16px;
+}
+
+.mini-divs button {
+  width: Hug 101px px;
+  height: Hug 37px px;
+  padding: 10px 15px 9px 15px;
+  gap: 10px;
+  background: #133D8D;
+  border: none;
+  color: white;
+  font-size: 13px;
+  margin-top: 35px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.mini-divs button[type=submit]:hover {
+  background-color: white;
+  color: #133D8D;
+}
+
+.mini-divs button[type=submit]:active {
+  transform: scale(0.95);
+}
+
+.footer-section {
+  background: #133D8D;
+  width: 100%;
+  margin-top: 150px;
+  padding: 50px;
+}
+
+.footer-section h2 {
+  text-align: center;
+  color: white;
+}
+
+.dwt {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.investor {
+  display: flex;
+  gap: 100px;
+  margin-top: 40px;
+}
+
+.flot2 :nth-child(1) {
+  max-width: 300px;
+  color: white;
+  font-size: 15px;
+}
+
+.flot2 :nth-child(2) {
+  max-width: 300px;
+  color: white;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.flot2 a {
+  margin-top: 20px;
+  color: white;
+  font-size: 14px;
+}
+
+.gmails {
+  margin-top: 30px;
+}
+
+.flot h3 {
+  color: white;
+  font-size: 16px;
+}
+
+.flot p {
+  margin-top: 15px;
+  color: white;
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
